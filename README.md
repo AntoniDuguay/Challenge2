@@ -10,11 +10,11 @@ N/A
 
 ## Usage
 
-Go to this link (coming soon)
+Go to this link https://antoniduguay.github.io/My-Portfolio/index.html
 
 ## Screenshot
 
-Coming soon...
+![image](https://user-images.githubusercontent.com/115761891/199797216-6589bc7f-159e-4432-8efc-561a36d2a79a.png)
 
 ## Credits
 
