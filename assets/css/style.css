@@ -8,9 +8,9 @@ header {
     height: 100px;
     position: fixed;
     top: 0;
-    background-color: #9E4D51;
+    background-color: #202020;
     color: white;
-    font-size: 85px;
+    font-size: 75px;
     font-weight: bolder;
 }
 
@@ -41,7 +41,7 @@ header {
     top: 0;
     bottom:0;
     overflow-y:scroll;
-    background-color: #9c9c9c;
+    background-color: #c4c4c4;
     word-wrap: break-word
 }
 
@@ -54,9 +54,43 @@ header {
    object-fit: cover;
 }
 
+#firstapp {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+ }
 
-/*Utilities*/
+ #firstapp:hover {
+    width: 560px;
+    height: 560px;
+    border: 20px inset black;
+ }
 
+ .list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    right: 23px;
+   }
+
+ .otherapps {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+ }
+
+ .otherapps:hover {
+    width: 280px;
+    height: 280px;
+    border: 10px inset black;
+ }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scroll1::-webkit-scrollbar {
@@ -99,13 +133,8 @@ header {
     font-weight: bolder;
 }
 
-#centertextboldblue {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: bolder;
-    color: blue;
+#bluelink {
+    color:blue;
 }
 
 
